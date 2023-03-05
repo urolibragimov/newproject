@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1340px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header .navbar .dflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar .dflex .search-catalog {
+  display: flex;
+  gap: 16px;
+}
+header .navbar .dflex .search-catalog .catalog {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #70c05b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+header .navbar .dflex .search-catalog .catalog .catalog-btn {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+  border: none;
+  background: transparent;
+}
+header .navbar .dflex .search-catalog .catalog a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+header .navbar .dflex .search-catalog form {
+  position: relative;
+}
+header .navbar .dflex .search-catalog form input {
+  padding: 8px 16px;
+  width: 360px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #8f8f8f;
+  background: #ffffff;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+}
+header .navbar .dflex .search-catalog form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+header .navbar .dflex .search-catalog form i {
+  position: absolute;
+  top: 20%;
+  right: 12%;
+}
+header .navbar .dflex .nav-icons {
+  display: flex;
+  gap: 20px;
+}
+header .navbar .dflex .nav-icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  row-gap: 10px;
+}
+header .navbar .dflex .nav-icons a span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #414141;
+}
+header .navbar .dflex .avatar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .navbar .dflex .avatar .avatar-btn {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  border: none;
+  background: transparent;
+}
+header .navbar .dflex .avatar .avatar-btn span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #232323;
+}
+
+.subheader {
+  display: none;
+}
+
+#hero-section {
+  background-image: url("../images/bcimg.png");
+  background-size: cover;
+}
+#hero-section .back-flex {
+  display: flex;
+  align-items: center;
+}
+#hero-section .back-flex h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #414141;
+}
+
+#home {
+  background-color: #f9f4e2;
+  padding-top: 80px;
+}
+#home #promotion .promotion-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+#home #promotion .promotion-top h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+#home #promotion .promotion-top a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#home #promotion .promotion-top a span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #606060;
+}
+#home #promotion .wrapper .promotion-bottom {
+  background-color: #fff;
+  padding: 10px;
+}
+#home #promotion .wrapper .promotion-bottom .bottom_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home #promotion .wrapper .promotion-bottom .bottom_text .text_normal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+#home #promotion .wrapper .promotion-bottom .bottom_text .text_normal .norm_first h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+}
+#home #promotion .wrapper .promotion-bottom .bottom_text .text_normal .norm_first p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
+}
+#home #promotion .wrapper .promotion-bottom .bottom_text .text_normal .norm_second h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #606060;
+}
+#home #promotion .wrapper .promotion-bottom .bottom_text .text_normal .norm_second p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
+}
+#home #promotion .wrapper .promotion-bottom .bottom_text .text_normal .text_pancake {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 10px;
+}
+#home #promotion .wrapper .promotion-bottom .text_star {
+  margin-bottom: 10px;
+  display: flex;
+  color: #bfbfbf;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#home #promotion .wrapper .promotion-bottom .text_star .star_gold {
+  color: #ff6633;
+}
+#home #promotion .wrapper .promotion-bottom .text_star .star_half {
+  color: yellow;
+}
